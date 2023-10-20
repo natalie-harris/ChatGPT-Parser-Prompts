@@ -1,7 +1,7 @@
 # ChatGPT-Parser-Prompts
 Prompts that I used in my ChatGPT research paper parser.
 
-I used a lot of prompts in the pipeline, so here's the three most important ones:
+I used a lot of prompts in the pipeline, as well as a bunch of few shot examples for the most important prompts. These prompts and examples are in prompts.py. Here's the three most important prompts:
 
 ## Focused Summarization Prompt: 
 "You are a scientist extracting data from research papers about Spruce Budworm (SBW) infestations and outbreaks. You are to log every instance in which the text refers to a Spruce Budworm outbreak during any years and region. You must only include the SPECIFIC ranges of years and the SPECIFIC region of the data. The region must be locatable on a map. Be as specific as possible. General locations like 'study site' or 'tree stand #3' are not relevant. Include outbreaks whose existence is uncertain. Never include research citations from the text. Only report information related to specific SBW outbreaks in specific years and locations. All information must be about Spruce Budworms."
